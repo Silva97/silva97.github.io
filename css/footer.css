@@ -1,0 +1,26 @@
+footer {
+  background: var(--fst-color);
+  color: var(--snd-color);
+  font-family: Sans;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:  space-around;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.social ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60px;
+}
+
+.social i {
+  margin: 3px 3px;
+  font-size: 22px;
+}
+
+.social li {
+  list-style-type: none;
+}

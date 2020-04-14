@@ -1,0 +1,73 @@
+:root {
+  scroll-behavior: smooth;
+  --fst-color: #474747;
+  --snd-color: #d7d7d7;
+  --term-color: #4e9a06;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: var(--snd-color);
+  text-decoration: none;
+}
+
+.terminal {
+  background: var(--fst-color);
+  margin: 20px 20%;
+  padding: 3px;
+  border-top: 30px solid lightgrey;
+  border-radius: 5px;
+  color: var(--snd-color);
+  font-size: 12px;
+  font-family: monospace;
+  overflow: hidden;
+}
+
+@media (max-width: 980px) {
+  .terminal {
+    margin: 20px 3%;
+  }
+}
+
+.terminal li {
+  list-style-type: circle;
+}
+
+.terminal a:hover {
+  text-decoration: underline;
+}
+
+.cli {
+  font-size: 12px;
+}
+
+.cli::before {
+  content: "felipe@linux:~$ ";
+  color: var(--term-color);
+  font-weight: bold;
+}
+
+.span-term {
+  color: var(--term-color);
+  font-weight: bold;
+}
+
+.img-adapt {
+  width: 90%;
+}
+
+.two-columns {
+  display: flex;
+}
+
+.two-columns .col-left {
+  width: 50%;
+  margin-right: 15px;
+}
+
+.two-columns .col-right {
+  width: 50%;
+}
