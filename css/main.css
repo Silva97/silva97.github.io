@@ -21,7 +21,7 @@ a {
   border-top: 30px solid lightgrey;
   border-radius: 5px;
   color: var(--snd-color);
-  font-size: 12px;
+  font-size: 14px;
   font-family: monospace;
   overflow: hidden;
 }
@@ -41,7 +41,7 @@ a {
 }
 
 .cli {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .cli:target::before {
