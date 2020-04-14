@@ -44,6 +44,11 @@ a {
   font-size: 12px;
 }
 
+.cli:target::before {
+  background: var(--term-color);
+  color: var(--fst-color);
+}
+
 .cli::before {
   content: "felipe@linux:~$ ";
   color: var(--term-color);
