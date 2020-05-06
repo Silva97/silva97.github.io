@@ -11,7 +11,6 @@ body {
 
 a {
   color: var(--snd-color);
-  text-decoration: none;
 }
 
 .terminal {
